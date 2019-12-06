@@ -1,0 +1,89 @@
+{
+    "expired_activation_code": {
+        "message": "アクティベーションコードの有効期限が切れています"
+    },
+    "curr_support_ipv4": { "message": "現在IPv4のみをサポートしています" },
+    "getting_started": { "message": "はじめに" },
+    "pair_a_device": { "message": "デバイスのペアリング" },
+    "go_to_portal": {
+        "message": "ヘデラポータルのログインとウォレットを持っていませんか？ここから始めましょう"
+    },
+    "portal_link": { "message": "portal.hedera.com" },
+    "pairing_instruction": {
+        "message": "ヘデラウォレットキーをエクスポートして下さい"
+    },
+    "pairing_link": { "message": "手順はこちらから。" },
+    "pairing_network": {
+        "message": "同じWi-Fiネットワークにデバイスが存在する必要があります。それか、テザリングかホットスポットでモバイル通信を共有して下さい。"
+    },
+    "activation_code": {
+        "message": "アクティベーションコードを入力して下さい："
+    },
+    "complete_pairing": { "message": "ペアリングを完了" },
+    "account_overview_text": {
+        "message": "アカウント詳細"
+    },
+    "domain_threshold_text": {
+        "message": "このドメインに対する自動支払い設定の上限は： "
+    },
+    "balance_text": {
+        "message": "残高"
+    },
+    "account_settings_text": {
+        "message": "アカウント設定"
+    },
+    "account_id_text": {
+        "message": "アカウントID："
+    },
+    "account_publickey_text": {
+        "message": "パブリックキー："
+    },
+    "recent_transactions_text": {
+        "message": "直近の取引"
+    },
+    "smart_contract_text": {
+        "message": "スマートコントラクト"
+    },
+    "smart_contract_coming_soon": {
+        "message": "これを使用するには、サポートされているWebサイトにアクセスしてください！"
+    },
+    "contract_id_text": {
+        "message": "コントラクトID："
+    },
+    "transaction_cost_text": {
+        "message": "取引コスト"
+    },
+    "property_location_text": {
+        "message": "所在地："
+    },
+    "star_cost_text": {
+        "message": "星の価格："
+    },
+    "total_cost_text": {
+        "message": "合計価格："
+    },
+    "smart_contract_tnc": {
+        "message": "*承認をクリックすると取引手数料がかかります*"
+    },
+    "accept_button_text": {
+        "message": "承認"
+    },
+    "deny_button_text": {
+        "message": "否認"
+    },
+    "checklist1": {
+        "message" : "私のキーはローカルに保存されます"
+    },
+    "checklist2": {
+        "message" : "トランザクションはhbarを差し引く"
+    },
+    "checklist3": {
+        "message" : "トランザクションは返金不可です"
+    },
+    "checklist4": {
+        "message" : "拡張機能は失われたキーを回復できません"
+    },
+    "checklist5": {
+        "message" : "<a href='https://hashingsystems.com/extension-conditions.txt' target='_blank'>利用規約</a>に同意する"
+    }
+}

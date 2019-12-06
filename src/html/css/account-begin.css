@@ -1,0 +1,124 @@
+#hedera .fixed-bottom {
+  right: 30px;
+  left: 30px;
+  bottom: 30px;
+}
+
+#hedera #portal {
+  text-align: center;
+}
+
+li.checklist__item {
+    list-style-type: none;
+}
+
+
+.checklist-div {
+  width: 460px;
+}
+.checklist-div div:first-child {
+  background-color: #8cddfe;
+  height: 61px;
+  font-size: 14px;
+  font-weight: 600;
+  color: #193f4f;
+  text-align: center;
+  line-height: 61px;
+  border-top-left-radius: 3px;
+  border-top-right-radius: 3px;
+}
+
+[type='checkbox']:not(:checked) + .checklist__label.error::before {
+    background: #B94A48 !important;
+}
+.checklist ul li:nth-child(even) {
+  background: #fbfdfe;
+}
+.checklist__header {
+  display: flex;
+  width: 100%;
+  margin-bottom: 2rem;
+  padding-bottom: 1rem;
+  border-bottom: 1px solid #e6e6e6;
+  flex-grow: column;
+}
+.checklist__heading {
+  font-size: 20px;
+  font-weight: bold;
+  color: #343534;
+  margin: 0;
+}
+.checklist__list {
+  padding: 10px 0px 4px 35px;
+  list-style-type: none;
+}
+.checklist__checkbox {
+  display: none;
+}
+.checklist__checkbox + .checklist__label::before {
+  position: relative;
+  display: block;
+  box-sizing: border-box;
+  width: 24px;
+  min-width: 24px;
+  height: 24px;
+  min-height: 24px;
+  content: "";
+  cursor: pointer;
+  user-select: none;
+  transition: all 0.2s ease-in-out;
+  border: 2px solid #ececec;
+  border-radius: 0.25rem;
+  outline: 0;
+  background-color: transparent;
+}
+.checklist__checkbox + .checklist__label::after {
+    position: absolute;
+    top: 0px;
+    left: 9px;
+    display: block;
+    width: 7px;
+    height: 15px;
+    content: "";
+    transition: all 0.2s ease-in-out;
+    transform: rotate(45deg);
+    border: solid transparent;
+    border-width: 0 3px 3px 0;
+}
+.checklist__checkbox:checked + .checklist__label::before {
+  border-color: #46d998;
+  background-color: #46d998;
+}
+.checklist__checkbox:checked + .checklist__label::after {
+  border-color: #236a4b;
+}
+.checklist__label {
+  position: relative;
+  display: flex;
+  cursor: pointer;
+}
+.checklist__description {
+  font-size: 13px;
+  color: #777;
+}
+.checklist__text {
+  height: 40px;
+  margin-left: 13px;
+  font-size: 14px;
+  line-height: 1.64;
+  color: #88909a;
+}
+.checklist__item {
+  cursor: pointer;
+  margin-left: 10px;
+}
+li.checklist__item {
+    text-align: left;
+}
+.row.top.pb-4.pt-2 {
+    padding-bottom: 0 !important;
+}
+.checklist__list>h5 {
+    margin: 10px;
+    margin-bottom: 35px;
+}

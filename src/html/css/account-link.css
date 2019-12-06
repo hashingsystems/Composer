@@ -1,0 +1,27 @@
+#hedera #pairingInstruction {
+  text-align: center;
+}
+
+#hedera #pairingLink {
+  color: #007bff;
+}
+
+#hedera #qrcode {
+  display: inline-block;
+  width: 248px;
+  height: 224px;
+}
+
+#hedera #qrcode img {
+  display: block;
+  margin: 10px auto;
+}
+
+#hedera #pinForm label {
+  display: block;
+  margin-top: 0;
+  margin-bottom: 10px;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+}

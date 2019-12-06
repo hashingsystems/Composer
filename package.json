@@ -1,0 +1,95 @@
+{
+  "name": "hedera-browser-extension",
+  "version": "0.9.34",
+  "description": "Hedera browser extension to manage micropayments",
+  "dependencies": {
+    "axios": "^0.19.0",
+    "debug": "^4.1.1",
+    "decimal.js": "^10.2.0",
+    "detect-node": "^2.0.4",
+    "dexie": "^3.0.0-alpha.6",
+    "dinero.js": "^1.6.0",
+    "google-protobuf": "^3.7.1",
+    "grpc-web": "^1.0.4",
+    "ip-address": "^5.9.0",
+    "list.js": "^1.5.0",
+    "nano-seconds": "^1.2.2",
+    "node-forge": "^0.8.2",
+    "qrcode-generator": "^1.4.3",
+    "snyk": "^1.190.0",
+    "socket.io": "^2.2.0",
+    "socket.io-client": "^2.2.0",
+    "web3-eth-abi": "^1.0.0-beta.52"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.4.4",
+    "@babel/plugin-transform-runtime": "^7.4.4",
+    "@babel/preset-env": "^7.4.4",
+    "@babel/register": "^7.4.4",
+    "@babel/runtime": "^7.4.4",
+    "acorn": "^6.1.1",
+    "babel-core": "^7.0.0-bridge.0",
+    "babel-jest": "^24.7.1",
+    "babel-loader": "^8.0.5",
+    "clean-webpack-plugin": "^2.0.1",
+    "codecov": "^3.5.0",
+    "copy-webpack-plugin": "^5.0.3",
+    "css-loader": "^2.1.1",
+    "dotenv": "^7.0.0",
+    "dotenv-webpack": "^1.7.0",
+    "express": "^4.16.4",
+    "fake-indexeddb": "^2.1.0",
+    "jest": "^24.7.1",
+    "jsdom": "^14.1.0",
+    "prettier-eslint": "^8.8.2",
+    "prettier-eslint-cli": "^4.7.1",
+    "sinon-chrome": "^3.0.1",
+    "style-loader": "^0.23.1",
+    "stylelint": "^10.0.1",
+    "stylelint-config-standard": "^18.3.0",
+    "supercop.js": "^2.0.1",
+    "supertest": "^4.0.2",
+    "terser-webpack-plugin": "^1.2.3",
+    "webpack": "^4.30.0",
+    "webpack-cli": "^3.3.8",
+    "webpack-merge": "^4.2.1"
+  },
+  "scripts": {
+    "test:manual": "webpack --config webpack.test.config.babel.js",
+    "dev": "webpack --config webpack.development.config.babel.js",
+    "staging": "webpack --config webpack.staging.config.babel.js",
+    "prod": "webpack --config webpack.production.config.babel.js",
+    "build-staging": "rm -rf dist && webpack --config webpack.build-staging.config.babel.js",
+    "build-prod": "rm -rf dist && webpack --config webpack.build-prod.config.babel.js",
+    "zip-staging": "zip -r dist_staging.zip dist && mv dist_staging.zip ~/Desktop/dist_staging.zip",
+    "zip-prod": "zip -r dist_production.zip dist && mv dist_production.zip ~/Desktop/dist_production.zip",
+    "build": "npm run build-staging && npm run zip-staging && npm run build-prod && npm run zip-prod",
+    "test": "jest",
+    "test:coverage": "jest --config jest.cov.config.js",
+    "codecov": "codecov",
+    "test:clear": "jest --clearCache",
+    "fix": "npm run fix:code && npm run fix:styles",
+    "fix:code": "prettier-eslint --write 'src/**/*.{js,jsx}'",
+    "fix:styles": "prettier-stylelint --write 'src/**/*.{css,scss}'",
+    "docs": "generate-docs -p 'src/javascript' -c '../documentation/docs/hedera-browser-extension' -d 'docusaurus.json'",
+    "snyk-protect": "snyk protect",
+    "prepare": "npm run snyk-protect"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@github.com/hashgraph/hedera-browser-extension.git"
+  },
+  "contributors": [
+    {
+      "name": "David Matusevich"
+    },
+    {
+      "name": "Calvin Cheng"
+    },
+    {
+      "name": "Serene Lim"
+    }
+  ],
+  "license": "SEE LICENSE IN LICENSE.md",
+  "snyk": true
+}

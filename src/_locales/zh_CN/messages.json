@@ -1,0 +1,85 @@
+{
+    "expired_activation_code": {
+        "message": "激活码已过期"
+    },
+    "curr_support_ipv4": { "message": "我们目前只支持IPv4" },
+    "getting_started": { "message": "开始" },
+    "pair_a_device": { "message": "链接" },
+    "go_to_portal": {
+        "message": "没有 Hedera Portal 登录和钱包? 去登录"
+    },
+    "portal_link": { "message": "portal.hedera.com" },
+    "pairing_instruction": { "message": "按照以下方式链接您的Hedera钱包" },
+    "pairing_link": { "message": "根据说明。" },
+    "pairing_network": {
+        "message": "设备必须位于同一个wifi网络上。或者，通过网络共享或热点共享移动连接。"
+    },
+    "activation_code": { "message": "输入激活码：" },
+    "complete_pairing": { "message": "完整链接" },
+    "account_overview_text": {
+        "message": "账户信息"
+    },
+    "domain_threshold_text": {
+        "message": "对此域名，自动支付任何数目至："
+    },
+    "balance_text": {
+        "message": "可用余额"
+    },
+    "account_settings_text": {
+        "message": "帐号设置"
+    },
+    "account_id_text": {
+        "message": "帐号 ID:"
+    },
+    "account_publickey_text": {
+        "message": "公钥:"
+    },
+    "recent_transactions_text": {
+        "message": "最新交易"
+    },
+    "smart_contract_text": {
+        "message": "智能合约"
+    },
+    "smart_contract_coming_soon": {
+        "message": "访问支持的网站以使用此功能!"
+    },
+    "contract_id_text": {
+        "message": "智能合约 ID:"
+    },
+    "transaction_cost_text": {
+        "message": "交易成本："
+    },
+    "property_location_text": {
+        "message": "位置:"
+    },
+    "star_cost_text": {
+        "message": "成本："
+    },
+    "total_cost_text": {
+        "message": "总成本:"
+    },
+    "smart_contract_tnc": {
+        "message": "*再次接受单击将会产生交易成本*"
+    },
+    "accept_button_text": {
+        "message": "接受"
+    },
+    "deny_button_text": {
+        "message": "拒绝"
+    },
+    "checklist1": {
+        "message" : "我的密钥将存储在本地"
+    },
+    "checklist2": {
+        "message" : "交易扣除hbar"
+    },
+    "checklist3": {
+        "message" : "交易不可退款"
+    },
+    "checklist4": {
+        "message" : "扩展无法恢复丢失的密钥"
+    },
+    "checklist5": {
+        "message" : "同意<a href='https://hashingsystems.com/extension-conditions.txt' target='_blank'>条款和条件</a>"
+    }
+}

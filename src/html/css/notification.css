@@ -1,0 +1,234 @@
+.hedera-wrapper {
+  float: left;
+  width: 100%;
+}
+
+/**
+* Notification styles
+**/
+
+.notification {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  height: 40px;
+  justify-content: center;
+  box-sizing: border-box;
+  position: relative;
+}
+
+.notification.yellow {
+  background: #eada0b;
+}
+
+.notification.blue {
+  background: #30577d;
+}
+
+.notification p {
+  color: #212529;
+  justify-content: center;
+  font-size: 10px;
+  line-height: 12px;
+  text-align: left;
+  margin-top: 0;
+  margin-bottom: 0;
+  padding-left: 8em;
+}
+
+.notification ul {
+  display: flex;
+  margin: -17px 0 0;
+  padding: 0;
+  align-items: center;
+  justify-content: flex-end;
+}
+
+.notification li {
+  list-style: none;
+  margin-right: 20px;
+}
+
+.notification .unstyled-button {
+  border: none;
+  padding: 0;
+  background: none;
+  font-size: 10px;
+  color: #212529;
+  justify-content: center;
+  line-height: 12px;
+  text-align: left;
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+.notification.blue p {
+  color: #f9f9f9;
+  line-height: 12px;
+}
+
+.notification__options {
+  color: #222;
+  cursor: pointer;
+  font-size: 10px;
+  font-weight: 300;
+  line-height: 12px;
+  padding-left: 25px;
+  position: relative;
+}
+
+.notification__options--tick::before,
+.notification__options--cross::before {
+  background-color: #eada0b;
+  border: 1px solid #222;
+  border-radius: 100%;
+  content: '';
+  height: 14px;
+  left: 0;
+  position: absolute;
+  top: -4px;
+  width: 14px;
+}
+
+.notification__options--tick::after,
+.notification__options--cross::after {
+  background: url('../images/tick.svg') no-repeat 0 0;
+  background-size: 19px;
+  content: '';
+  height: 14px;
+  left: -1px;
+  position: absolute;
+  top: -5px;
+  width: 14px;
+}
+
+.notification__options--cross::after {
+  background-image: url('../images/cancel.svg');
+  background-size: 12px;
+  left: 2px;
+  top: -2px;
+}
+
+.notification__options--white {
+  color: #f9f9f9;
+}
+
+.notification__options--white-tick::before {
+  border: 1px solid #fff;
+  border-radius: 100%;
+  box-sizing: border-box;
+  content: '';
+  height: 16px;
+  left: 0;
+  position: absolute;
+  top: -3px;
+  width: 16px;
+}
+
+.notification__options--white-tick::after {
+  background: url('../images/tick-white.svg') no-repeat 0 0;
+  background-size: 17px;
+  content: '';
+  height: 12px;
+  left: 0;
+  position: absolute;
+  top: -4px;
+  width: 12px;
+}
+
+[type='radio']:checked,
+[type='radio']:not(:checked),
+[type='checkbox']:checked,
+[type='checkbox']:not(:checked) {
+  position: absolute;
+  left: -9999px;
+}
+
+[type='radio']:checked + label,
+[type='radio']:not(:checked) + label,
+[type='checkbox'] + label,
+[type='checkbox']:not(:checked) + label {
+  position: relative;
+  padding-left: 25px;
+  cursor: pointer;
+  line-height: 12px;
+  display: inline-block;
+  color: #222;
+  font-size: 10px;
+}
+
+[type='radio']:checked + label::before,
+[type='radio']:not(:checked) + label::before,
+[type='checkbox']:checked + label::before,
+[type='checkbox']:not(:checked) + label::before {
+  content: '';
+  position: absolute;
+  left: 0;
+  top: -3px;
+  width: 14px;
+  height: 14px;
+  border: 1px solid #222;
+  border-radius: 5%;
+  background: #eada0b;
+}
+
+#no[type='radio']:checked + label::after,
+#no[type='radio']:not(:checked) + label::after {
+  background: url(../images/cancel.svg) no-repeat 0 0;
+  background-size: 12px;
+  top: -1px;
+  left: 2px;
+}
+
+[type='radio']:not(:checked) + label::after,
+[type='checkbox']:not(:checked) + label::after {
+  opacity: 0;
+  -webkit-transform: scale(0);
+  transform: scale(0);
+}
+
+.notification__authorize {
+  align-items: center;
+  display: flex;
+  justify-content: center;
+}
+
+.notification__authorize-text {
+  padding-right: 69px;
+}
+
+[type='checkbox'] + label,
+[type='checkbox']:not(:checked) + label {
+  color: #f9f9f9;
+  line-height: 12px;
+}
+
+[type='checkbox']:checked + label::before,
+[type='checkbox']:not(:checked) + label::before {
+  border-color: #fff;
+  background-color: #30577d;
+}
+
+.notification__close {
+  cursor: pointer;
+  position: absolute;
+  right: 30px;
+  top: 11px;
+}
+
+.notification__close::before {
+  background:
+    transparent url('../images/cancel-white.svg') center / 12px
+    no-repeat;
+  border: 1px solid #fff;
+  box-sizing: border-box;
+  border-radius: 100%;
+  content: '';
+  height: 16px;
+  position: absolute;
+  width: 16px;
+}
+
+.bold-text {
+  font-weight: bold;
+}

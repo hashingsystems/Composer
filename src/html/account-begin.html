@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en-US">
+    <head>
+        <meta charset="UTF-8" />
+        <title>Account Begin</title>
+        <meta
+            name="viewport"
+            content="width=device-width, initial-scale=1, user-scalable=no"
+        />
+        <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css" />
+        <link rel="stylesheet" type="text/css" href="css/hedera.css" />
+        <link rel="stylesheet" type="text/css" href="css/notification.css" />
+        <link rel="stylesheet" type="text/css" href="css/account-begin.css" />
+        <script src="../javascript/account-begin.js"></script>
+    </head>
+
+    <body id="hedera">
+        <div class="container">
+            <div class="row top pb-4 pt-2">
+                <div class="top col-12">
+                    <img
+                        class="rounded-circle"
+                        src="images/Icon-Hbar-White.png"
+                        alt=""
+                        width="35"
+                        height="35"
+                    />
+                </div>
+                <div class="col-12 pt-3">
+                    <p id="title" class="title"></p>
+                </div>
+            </div>
+            <div class="row">
+                <div class="checklist">
+                    <ul class="checklist__list">
+                        <h5>Upon Entering I agree that:</h5>
+                        <li class="checklist__item" id="checklist1">
+                            <input type="checkbox" name="checkbox01" id="checkbox01" class="checklist__checkbox">
+                            <label for="checkbox01" class="checklist__label" id="checklabel01">
+                                <span class="checklist__text">
+                                    <span class="checklist__title">My key will be stored locally</span>
+                                </span>
+                            </label>
+                        </li>
+                        <li class="checklist__item" id="checklist2">
+                            <input type="checkbox" name="checkbox02" id="checkbox02" class="checklist__checkbox">
+                            <label for="checkbox02" class="checklist__label" id="checklabel02">
+                                <span class="checklist__text">
+                                    <span class="checklist__title">Transactions deduct hbar</span>
+                                </span>
+                            </label>
+                        </li>
+                        <li class="checklist__item" id="checklist3">
+                            <input type="checkbox" name="checkbox03" id="checkbox03" class="checklist__checkbox">
+                            <label for="checkbox03" class="checklist__label" id="checklabel03">
+                                <span class="checklist__text">
+                                    <span class="checklist__title">Transactions are non-refundable</span>
+                                </span>
+                            </label>
+                        </li>
+                        <li class="checklist__item" id="checklist4">
+                            <input type="checkbox" name="checkbox04" id="checkbox04" class="checklist__checkbox">
+                            <label for="checkbox04" class="checklist__label" id="checklabel04">
+                                <span class="checklist__text">
+                                    <span class="checklist__title">Extension cannot recover lost keys</span>
+                                </span>
+                            </label>
+                        </li>
+                        <li class="checklist__item" id="checklist5">
+                            <input type="checkbox" name="checkbox05" id="checkbox05" class="checklist__checkbox">
+                            <label for="checkbox05" class="checklist__label" id="checklabel05">
+                                <span class="checklist__text">
+                                    <span class="checklist__title">Agree to the <a href="https://hashingsystems.com/extension-conditions.txt" target="_blank">terms and conditions</a></span>
+                                </span>
+                            </label>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <div id="bottom" class="fixed-bottom">
+                <button
+                    class="btn btn-normal btn-block"
+                    type="button"
+                    id="pair"
+                ></button>
+                <div class="col-12 pt-3">
+                    <div id="portal" class="small"></div>
+                    <div
+                        id="portalLink"
+                        style="color: #007BFF"
+                        class="small"
+                        href="https://portal.hedera.com">
+                        portal.hedera.com
+                    </div>
+                </div>
+            </div>
+        </div>
+    </body>
+</html>

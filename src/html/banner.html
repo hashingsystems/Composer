@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    </head>
+
+    <body id="hedera">
+        <div id="hedera-banner-wrapper">
+            <div class="yellow" id="banner">
+                <!-- alert-string is where we customize our banner messages -->
+                <p id="alert-string">
+                    This content costs
+                    <span class="bold-text" id="requestedPayment">0</span> which
+                    exceeds your transaction threshold of
+                    <span class="bold-text" id="currThr">0</span>. Would you
+                    like to allow transactions of this size?
+                </p>
+                <!-- button-group is where we let our end user select an option -->
+                <ul id="button-group">
+                    <li>
+                        <button class="unstyled-button" id="once">
+                            Yes, this once.
+                        </button>
+                    </li>
+                    <li>
+                        <button class="unstyled-button" id="always">
+                            Yes, always.
+                        </button>
+                    </li>
+                    <li>
+                        <button class="unstyled-button" id="no">
+                            No, this once.
+                        </button>
+                    </li>
+                    <li>
+                        <button class="unstyled-button" id="never">
+                            No, never.
+                        </button>
+                    </li>
+                </ul>
+                <!-- Here's where we manage our user's login status-->
+                <div id="login-status" data-status></div>
+            </div>
+        </div>
+    </body>
+</html>

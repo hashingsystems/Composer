@@ -1,0 +1,8 @@
+export default {
+    key: ``
+    encodedKey: '',
+    jsonData: {
+        data: '',
+        success: true
+    }
+}

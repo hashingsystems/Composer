@@ -1,0 +1,33 @@
+#hedera #recent-transactions ul {
+  font-size: 60%;
+  font-weight: lighter;
+  display: block;
+  list-style: none;
+  overflow-y: auto;
+  max-height: 290px;
+  padding-left: 10px;
+}
+
+#hedera #recent-transactions ul li {
+  padding: 10px 0;
+  border-bottom: 1px solid #979797;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+
+
+}
+
+#hedera #recent-transactions span {
+  /* display: inline-block;
+  width: 20%; */
+  vertical-align: middle;
+  text-align: center;
+}
+
+#hedera #recent-transactions span img{
+  width: 17px;
+  height: 22px;
+  object-fit: contain;
+}

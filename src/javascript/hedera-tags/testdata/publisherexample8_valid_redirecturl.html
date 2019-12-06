@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+        <title>Document</title>
+    </head>
+
+    <body>
+        <hedera-micropayment
+            data-time="1"
+            data-paymentserver="http://localhost:8099"
+            data-contentid="test1"
+            data-memo="test1"
+            data-type="article"
+            data-submissionnode="0.0.3"
+            data-extensionid="pggademcllgdajmghcgeidpcbllikmcp"
+            data-recipientlist='[{"tinybars": "444", "to":"0.0.1003"}]'
+            data-redirect='{"nonPayingAccount": "/nomicropaymentreceived.html"}'
+        >
+        </hedera-micropayment>
+
+        <h1>Pellentesque vehicula, nibh at posuere.</h1>
+    </body>
+</html>

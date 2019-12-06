@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en-US">
+    <head>
+        <meta charset="UTF-8" />
+        <title>Account Linking</title>
+        <meta
+            name="viewport"
+            content="width=device-width, initial-scale=1, user-scalable=no"
+        />
+        <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css" />
+        <link rel="stylesheet" type="text/css" href="css/hedera.css" />
+        <link rel="stylesheet" type="text/css" href="css/notification.css" />
+        <link rel="stylesheet" type="text/css" href="css/account-link.css" />
+        <script src="../javascript/account-link.js"></script>
+    </head>
+
+    <body id="hedera">
+        <div class="container">
+
+            <div class="col-12 pt-3">
+                <div id="pairingInstruction" class="small"></div>
+                <a id="pairingLink" class="small"></a>
+                <a id="pairingNetwork" class="small"></a>
+                <div class="title" id="qrcode"></div>
+                <form class="title" name="pinForm" id="pinForm">
+                    <label id="formLabel" for="pin"></label>
+                    <input class="form-control" type="text" name="pinInput" />
+                    <button
+                        id="getAccountBalanceButton"
+                        class="btn btn-normal btn-block"
+                    >
+                        <span id="buttonCompletePairingText"></span>
+                        <img src="" data-src="" alt="" width="16px" />
+                    </button>
+                </form>
+            </div>
+        </div>
+    </body>
+</html>

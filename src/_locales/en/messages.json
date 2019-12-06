@@ -1,0 +1,116 @@
+{
+    "expired_activation_code": {
+        "message": "Your activation code has expired"
+    },
+    "curr_support_ipv4": {
+        "message": "We currently only support IPv4"
+    },
+    "getting_started": {
+        "message": "Getting Started"
+    },
+    "pair_a_device": {
+        "message": "Pair a device"
+    },
+    "go_to_portal": {
+        "message": "Don’t have a Hedera Portal login and Wallet? Get started at"
+    },
+    "portal_link": {
+        "message": "portal.hedera.com"
+    },
+    "pairing_instruction": {
+        "message": "Export your Hedera Wallet keys by following"
+    },
+    "pairing_link": {
+        "message": "these instructions."
+    },
+    "pairing_network": {
+        "message": "Devices must be on the same wifi network. Alternatively, share a mobile connection by tethering or hotspot."
+    },
+    "activation_code": {
+        "message": "Enter activation code："
+    },
+    "complete_pairing": {
+        "message": "Complete Pairing"
+    },
+    "account_overview_text": {
+        "message": "Account Overview"
+    },
+    "domain_threshold_text": {
+        "message": "For this domain, automatically pay any request up to: "
+    },
+    "balance_text": {
+        "message": "Current Balance"
+    },
+    "account_settings_text": {
+        "message": "Account Settings"
+    },
+    "account_id_text": {
+        "message": "Account ID:"
+    },
+    "account_publickey_text": {
+        "message": "Public Key:"
+    },
+    "recent_transactions_text": {
+        "message": "Recent Transactions"
+    },
+    "smart_contract_text": {
+        "message": "Smart Contract"
+    },
+    "smart_contract_coming_soon": {
+        "message": "Visit a supported website to use this!"
+    },
+    "contract_id_text": {
+        "message": "Contract ID:"
+    },
+    "transaction_cost_text": {
+        "message": "Transaction Cost:"
+    },
+    "property_location_text": {
+        "message": "Property Location:"
+    },
+    "star_cost_text": {
+        "message": "Star Cost:"
+    },
+    "total_cost_text": {
+        "message": "Total Cost:"
+    },
+    "smart_contract_tnc": {
+        "message": "*Clicking ACCEPT will incur transaction cost*"
+    },
+    "accept_button_text": {
+        "message": "Accept"
+    },
+    "deny_button_text": {
+        "message": "Deny"
+    },
+    "crypto_transfer_text": {
+        "message": "Crypto Transfer"
+    },
+    "to_account_id_text": {
+        "message": "To Account:"
+    },
+    "hbar_amount_text": {
+        "message": "ℏ Amount:"
+    },
+    "dollar_amount_text": {
+        "message": "$ Amount:"
+    },
+    "memo_text": {
+        "message": "Memo:"
+    },
+    "checklist1": {
+        "message" : "My key will be stored locally"
+    },
+    "checklist2": {
+        "message" : "Transactions deduct hbar"
+    },
+    "checklist3": {
+        "message" : "Transactions are non-refundable"
+    },
+    "checklist4": {
+        "message" : "Extension cannot recover lost keys"
+    },
+    "checklist5": {
+        "message" : "Agree to the <a href='https://hashingsystems.com/extension-conditions.txt' target='_blank'>terms and conditions</a>"
+    }
+}

@@ -1,0 +1,37 @@
+{
+    "manifest_version": 2,
+    "name": "Composer for Hedera Hashgraph",
+    "short_name": "Composer",
+    "version": "1.00.04",
+    "description": "This extension let's you interact with smart contracts on Hedera Hashgraph",
+    "icons": {
+        "128": "icons/Ext-Icon-Configured-128x128.png",
+        "48": "icons/Ext-Icon-Configured-48x48.png",
+        "32": "icons/Ext-Icon-Configured-32x32.png",
+        "16": "icons/Ext-Icon-Configured-16x16.png"
+    },
+    "default_locale": "en",
+    "browser_action": {
+        "default_icon": "icons/Ext-Icon-Configured-16x16.png",
+        "default_popup": "html/account-overview.html"
+    },
+    "background": {
+        "scripts": ["javascript/background.js"],
+        "persistent": false
+    },
+    "content_scripts": [{
+        "matches": ["<all_urls>"],
+        "js": ["javascript/content.js"]
+    }],
+    "permissions": [
+        "tabs",
+        "storage",
+        "notifications",
+        "contextMenus",
+        "activeTab",
+        "cookies",
+        "<all_urls>"
+    ],
+    "web_accessible_resources": ["html/crypto-transfer-details.html", "html/account-overview.html", "html/smart-contract.html", "html/smart-contract-details.html", "html/banner.html", "icons/icon16.png"],
+    "content_security_policy": "script-src 'self' 'unsafe-eval'; object-src 'self'"
+}

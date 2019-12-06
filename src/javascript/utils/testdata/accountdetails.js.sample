@@ -1,0 +1,9 @@
+// note that the supplied privateKey and publicKey values are hex-encoded
+
+export default {
+    publicKey: '',
+    accountID: '',
+    accountIndex: 0,
+    privateKey: '',
+    accountLabel: ''
+}

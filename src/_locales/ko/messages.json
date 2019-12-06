@@ -1,0 +1,87 @@
+{
+    "expired_activation_code": {
+        "message": "활성화 코드가 만료되었습니다"
+    },
+    "curr_support_ipv4": { "message": "현재 IPv4네트워크만 지원합니다." },
+    "getting_started": { "message": "시작" },
+    "pair_a_device": { "message": "디바이스를 페어링하세요." },
+    "go_to_portal": {
+        "message": "헤데라 포탈 계정과 지갑이 없으신가요? 여기에서부터 시작하세요."
+    },
+    "portal_link": { "message": "portal.hedera.com" },
+    "pairing_instruction": {
+        "message": "다음과 같은 방법으로 Hedera Wallet keys를 내보냅니다."
+    },
+    "pairing_link": { "message": "이러한 지시사항" },
+    "pairing_network": {
+        "message": "휴대폰과 데스크탑이 반드시 같은 와이파이 네트워크를 사용해야합니다. 와이파이가 없는 경우, 모바일 데이터를 테더링하거나 핫스폿을 사용하여 연결할 수 있습니다."
+    },
+    "activation_code": { "message": "활성화 코드를 입력하세요：" },
+    "complete_pairing": { "message": "페어링 완료" },
+    "account_overview_text": {
+        "message": "계정 살펴보기"
+    },
+    "domain_threshold_text": {
+        "message": "이 도메인은 요청을 자동으로 지불하고 있습니다. 최대 지불 금액: "
+    },
+    "balance_text": {
+        "message": "현재 잔액"
+    },
+    "account_settings_text": {
+        "message": "계정 설정"
+    },
+    "account_id_text": {
+        "message": "계정 ID:"
+    },
+    "account_publickey_text": {
+        "message": "퍼블릭 키:"
+    },
+    "recent_transactions_text": {
+        "message": "최근 트랜잭션"
+    },
+    "smart_contract_text": {
+        "message": "스마트 컨트랙트"
+    },
+    "smart_contract_coming_soon": {
+        "message": "지원되는 웹 사이트를 방문하여 사용하십시오!"
+    },
+    "contract_id_text": {
+        "message": "컨트랙트 ID:"
+    },
+    "transaction_cost_text": {
+        "message": "트랜잭션 비용:"
+    },
+    "property_location_text": {
+        "message": "Property location:"
+    },
+    "star_cost_text": {
+        "message": "Star Cost:"
+    },
+    "total_cost_text": {
+        "message": "총 비용:"
+    },
+    "smart_contract_tnc": {
+        "message": "*별 구매에 성공한 후 수락 버튼 클릭시에 트랜잭션 비용이 발생합니다*"
+    },
+    "accept_button_text": {
+        "message": "수락"
+    },
+    "deny_button_text": {
+        "message": "거부"
+    },
+     "checklist1": {
+        "message" : "내 키가 로컬에 저장됩니다"
+    },
+    "checklist2": {
+        "message" : "트랜잭션 차감 hbar"
+    },
+    "checklist3": {
+        "message" : "거래는 환불 불가"
+    },
+    "checklist4": {
+        "message" : "확장시 손실 된 키를 복구 할 수 없습니다"
+    },
+    "checklist5": {
+        "message" : "<a href='https://hashingsystems.com/extension-conditions.txt' target='_blank'> 이용 약관 </a>에 동의하십시오."
+    }
+}

@@ -1,0 +1,19 @@
+{
+    "documentor": "docusaurus",
+    "sidebarsHeader": "hedera-browser-extension",
+    "sidebarsTarget": "Hedera Browser Extension",
+    "sidebarsJson": {
+        "docs": {
+            "Overview": [
+                "01-overview-why",
+                "02-software-components",
+                "03-design-considerations"
+            ],
+            "Hedera Browser Extension": []
+        },
+        "more": {
+            "First Category": ["doc5"]
+        }
+    },
+    "copyJsonToDir": "../documentation/website"
+}
