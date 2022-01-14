@@ -14,7 +14,7 @@
     "ip-address": "^5.9.0",
     "list.js": "^1.5.0",
     "nano-seconds": "^1.2.2",
-    "node-forge": "^0.8.2",
+    "node-forge": "^1.0.0",
     "qrcode-generator": "^1.4.3",
     "snyk": "^1.190.0",
     "socket.io": "^2.2.0",
